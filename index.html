@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codersWeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body cz-shortcut-listen="true">
+    <!-- Navigation -->
+    <div class="navbar navbar-expand-lg mt-4">
+        <div class="container">
+            <a href="#" class="navbar-brand fs-3">codersWeb</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#producto" class="nav-link">Producto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactos" class="nav-link">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header pt-7">
+        <div class="container-xl">
+            <div class="row my-5">
+                <div class="col-md-6">
+                    <div class="image-container mb-5 px-4 h-100">
+                        <img src="assets/img/mackbook.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-container p-4 d-flex flex-column justify-content-center h-100 mb-5">
+                        <h1 class="display-3">MacBook Pro</h1>
+                        <p class="lead text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos est dolore nemo veritatis,
+                            quisquam quo
+                            facere assumenda enim, odio necessitatibus vitae, inventore ea quibusdam fugiat.
+                        </p>
+                        <button class="btn btn-outline-secondary text-uppercase">Mira qué bueno</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Testimonial -->
+    <section class="testimonial bg-light text-secondary p-5">
+        <div class="container">
+            <p class="display-5 text-center">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur minima similique nostrum officia
+                magnam
+                vitae inventore aliquam ipsa ea accusantium.
+            </p>
+            <p class="text-center lead pt-2">- Una potencia chipnotizante</p>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <div id="producto" class="py-5">
+        <div class="container">
+            <div class="row g-5 py-5">
+                <div class="col-md-12">
+                    <h6 class="text-uppercase  w-bolder">PANTALLA, CÁMARA Y AUDIO</h6>
+                    <h3 class="display-4 text-secondary">Claramente brillante</h3>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="assets/img/mackbook-item1.png">
+                    <h5 class="fw-bold mt-3">Cámara de alta definición</h5>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolores, et officiis omnis
+                        officia
+                        laudantium eos?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="assets/img/mackbook-item2.png">
+                    <h5 class="fw-bold mt-3">Sistema de sonido envolvente</h5>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolores, et officiis omnis
+                        officia
+                        laudantium eos?
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="assets/img/mackbook-item3.png">
+                    <h5 class="fw-bold mt-3">Pantalla Liquid Retina</h5>
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque dolores, et officiis omnis
+                        officia
+                        laudantium eos?
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--contactos-->
+    <section id="contactos" class="testimonial bg-light text-secondary p-5">
+        <div class="container">
+            <form class="row g-md-3 justify-content-center">
+                <div class="col-12 text-center">
+                    <h3 class="display-5 fw-light">Contáctanos</h3>
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <label for="nombres" class="form-label">Nombres</label>
+                    <input type="password" class="form-control" id="nombres">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="apellidos" class="form-label">Apellidos</label>
+                    <input type="text" class="form-control" id="apellidos">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-12 col-md-6">
+                    <label for="telefono" class="form-label">Telefono</label>
+                    <input type="phone" class="form-control" id="telefono">
+                </div>
+                
+                <div class="col-12 d-grid gap-2 mt-5">
+                    <button type="submit" class="btn align-text-bottom btn-outline-secondary text-uppercase">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-body-secondary">
+        <div class="container p-3 ">
+            <p class="text-center small">Copyright © CodersWeb 2024</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
